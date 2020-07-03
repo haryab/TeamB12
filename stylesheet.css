@@ -18,7 +18,7 @@ header {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display:none !important;
+  display:none;
 }
 
 .header-left {
@@ -181,8 +181,8 @@ li{
 	margin-bottom: 10px;
 }
 .product-buttons a {
-  max-width: 90%;
-  max-height: 30%;
+  width: 90%;
+  height: 30%;
   text-align:center;
   vertical-align: middle;
   font-size: 100%
