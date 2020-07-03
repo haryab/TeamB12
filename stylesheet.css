@@ -219,6 +219,7 @@ footer{
   .info{
       float: left;
       width: 30%;
+	  tex-align:left;
   }
   .info a {
     width: 80%;
@@ -227,7 +228,7 @@ footer{
     font-size: 12px;
   }
 .info ul{
-	padding-left:0;
+	padding-left:40;
 }
 
   .submit{
