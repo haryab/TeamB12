@@ -1,9 +1,84 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-  
+  .txt-email{
+        text-align: center;
+        width: 150px;
+        font-size: 15px;
+        margin: 10px 10px 10px 15px;
+    }
+    .label{
+        text-align: left;
+        float:left;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 15px 20px;
+    }
+    .footer-link{
+        padding-top: 10px;
+    }
+    .footer-link a{
+        font-size: 13px;
+    }
+    .top-footer-wrapper{
+        height: 50px;
+        position: relative;
+    }
+    .info{
+        width: 30%;
+        text-align: left;
+    }
+    .submit{
+        margin-top: 7px;
+    }
+}
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-
+  .txt-email{
+        text-align: center;
+        width: 200px;
+        font-size: 17px;
+        width: 100%;
+        margin: 0 0;
+    }
+    .email-input h4{
+        padding-left: 0;
+        text-align: center;
+    }
+    .label{
+        text-align: left;
+        float: left;
+        letter-spacing: 5px;
+        font-size: 15px;
+        line-height: 15px;
+        margin: 15px 0;
+    }
+    .btn{
+        text-align: center;
+        font-size: 15px;
+    }
+    .top-footer-wrapper{
+        height: 170px;
+        margin: auto;
+    }
+    
+    .footer-link a{
+        font-size: 16px;
+        margin:0 10px;
+    }
+    .info{
+        width: 100%;
+        text-align: center;
+    }
+    .info ul{
+        padding-left: 0;
+    }
+    .info h4{
+        padding-left: 0;
+        margin: 10px 0 ;
+    }
+    .info a{
+        margin-top: 10px;
+    }
 }
