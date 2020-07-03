@@ -263,11 +263,14 @@ footer{
     display: inline-block;
     margin-top: 20px;
     font-size: 12px;
+	  text-align:left;
   }
 .info ul{
 	padding-left:40;
 }
-
+.info li{
+	text-align:left;
+}
   .submit{
       background-color:black;
       color: white;
