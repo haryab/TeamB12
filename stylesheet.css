@@ -99,6 +99,7 @@ li{
   color: white;
   background-image: url(https://i.imgur.com/ytDwgsU.jpg);
   text-shadow: 3px 1px black;
+  backgound-repeat: no-repeat;
 }
 
 .top-wrapper h1 {
