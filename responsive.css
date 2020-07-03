@@ -151,6 +151,11 @@
     font-size: 100%;
     line-height: 10px;
   }
+    
+  /* ngecilin gambar tengah */
+  .picture-middle img {
+      width: 90%;
+  }
   /*responsive for footer */
   .txt-email{
         text-align: center;
