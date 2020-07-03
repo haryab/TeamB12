@@ -69,6 +69,7 @@ li{
       margin-right: 20px;
       font-size: medium;
       font-style: oblique;
+    color:black;
   }
   .border-wrapper{
       padding: 0 5% 80px 5%;
@@ -80,6 +81,7 @@ li{
   }
   .info a {
     width: 80%;
+    color: black;
     display: inline-block;
     margin-top: 20px;
     font-size: 12px;
