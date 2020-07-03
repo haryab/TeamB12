@@ -109,7 +109,7 @@ li{
 
 .left-middle {
     float: left;
-    width: 30%;
+    width: 40%;
     padding: 0 30px;
 }
 
@@ -129,6 +129,7 @@ li{
 
 .picture-middle {
     float: right;
+    margin-right: 50px;
 }
 
 .clear {
