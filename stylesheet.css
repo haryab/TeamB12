@@ -1,41 +1,69 @@
-body {
-    margin: 0;
-    font-family: "Lucida Grande";
-}
-
 header {
-    background-color: #26d0c9;
-    color: rgb(255, 255, 255);
-    height: 90px;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  display: block;
 }
 
-.header-logo {
-    float: left;
-    font-size: 60px;
-    margin: 15px 30px 15px 15px;
+.logo {
+  width: 124px;
+  margin-top: 20px;
 }
 
-a {
-    text-decoration: none;
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none !important;
 }
 
-.header-list li {
-    float: left;
+.header-left {
+  float: left;
 }
 
-.li {
-    float: left;
-    list-style: none;
-    font-size: 20px;
-    padding: 12px;
-    margin: 30px;
+.header-right {
+  float: right;
+  margin-right: 25px;
 }
 
-.txt-search {
-    text-align: center;
-    margin: 40px;
+.header-right a {
+  line-height: 65px;
+  padding: 0 20 px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+	margin: 0 5px;
 }
-* {
+.header-right span {
+  margin-right: 5px;
+}
+.contact-icon a {
+  margin-right: 20px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  color: white;
+}
+
+<!-- RESPONSIVE -->
+<!-- UNTUK SMARTPHONE MAX 670PX-->
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
+  }
   box-sizing: border-box;
 }
 
