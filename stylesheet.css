@@ -154,6 +154,9 @@ li{
 	box-shadow: none;
 }
 /* Stylesheet Footer */
+footer{
+	height:350px;
+}
 .btn-footer {
     padding: 0 10px;
     color: white;
@@ -209,8 +212,8 @@ li{
       font-style: oblique;
   }
   .border-wrapper{
-      padding: 0 5% 80px 5%;
-	  margin-bottom: 30px;
+      	padding: 0 5% 80px 5%;
+	margin-bottom: 30px;
 
   }
   .info{
