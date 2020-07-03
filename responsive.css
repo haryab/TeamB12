@@ -1,5 +1,6 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
+    /*      FOOTER          */
   .txt-email{
         text-align: center;
         width: 150px;
@@ -30,11 +31,36 @@
     .submit{
         margin-top: 7px;
     }
-}
+
+    /* BAGIAN TENGAH/BAWAH */
+
+    .middle-wrapper {
+        text-align: center;
+    }
+
+    .left-middle {
+        float: none;
+        width: 100%;
+    }
+
+    .picture-middle {
+        float: none;
+        width: 100%;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+
+    .abtn-container .abtn{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
+    /*      FOOTER          */    
   .txt-email{
         text-align: center;
         width: 200px;
